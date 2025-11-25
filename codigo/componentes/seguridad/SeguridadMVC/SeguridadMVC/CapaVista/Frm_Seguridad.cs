@@ -345,5 +345,11 @@ namespace Capa_Vista_Seguridad
             Frm_PruebaNavegador nav = new Frm_PruebaNavegador();
             nav.ShowDialog();
         }
+
+        private void pacientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Mantenimiento_Paciente frm_Mantenimiento_Paciente = new Frm_Mantenimiento_Paciente();
+            frm_Mantenimiento_Paciente.ShowDialog();
+        }
     }
 }

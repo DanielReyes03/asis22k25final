@@ -62,6 +62,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_Login_Propio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login_Propio.Designer.cs">
+      <DependentUpon>Frm_Login_Propio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Mantenimiento_Paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Mantenimiento_Paciente.Designer.cs">
+      <DependentUpon>Frm_Mantenimiento_Paciente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Permisos_Perfiles.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +176,12 @@
     <Compile Include="Frm_Recuperar_Contrasena.Designer.cs">
       <DependentUpon>Frm_Recuperar_Contrasena.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Seguridad_Propio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Seguridad_Propio.Designer.cs">
+      <DependentUpon>Frm_Seguridad_Propio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Seguridad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -238,6 +256,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Frm_Login_Propio.resx">
+      <DependentUpon>Frm_Login_Propio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Mantenimiento_Paciente.resx">
+      <DependentUpon>Frm_Mantenimiento_Paciente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Permisos_Perfiles.resx">
       <DependentUpon>Frm_Permisos_Perfiles.cs</DependentUpon>
     </EmbeddedResource>
@@ -288,6 +312,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Recuperar_Contrasena.resx">
       <DependentUpon>Frm_Recuperar_Contrasena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Seguridad_Propio.resx">
+      <DependentUpon>Frm_Seguridad_Propio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Seguridad.resx">
       <DependentUpon>Frm_Seguridad.cs</DependentUpon>
